@@ -16,20 +16,20 @@ Building my own CV
 
 
 
-// ATT GÖRA I SECTION
+// ATT GÖRA I SECTION CSS & HTML
 
-# Kontaktuppgifter [ ]
+# Kontaktuppgifter [ X ]
 
-# Länkar [ ]
+# Länkar [ X ]
 
-# Kompetens [ ]
+# Kompetens [ X ]
 
-# Språk [ ]
+# Språk [ X ]
 
-# Profil [ ]
+# Profil [ X ]
 
-# Tekniska färdigheter [ ]
+# Tekniska färdigheter [ X ]
 
-# Arbetslivserfarenhet [ ]
+# Arbetslivserfarenhet [ X ]
 
-# Utbildning [ ]
+# Utbildning [ X ]

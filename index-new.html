@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elyas Husein – CV</title>
+  <link rel="stylesheet" href="css/modern-cv.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fri elegant font  -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<script src="js/main.js" defer></script>
+
+
+<body>
+  <!--- ÄNDRAT: Split-screen wrapper --->
+  <div class="split">
+
+    <!-- VÄNSTER: scrollbart innehåll -->
+    <aside class="left">
+      <!--- ÄNDRAT: nav med ankarlänkar --->
+      <header class="topbar" role="navigation" aria-label="Sidnavigering">
+        <a class="brand" href="#top">Curriculum Vitae</a>
+        <nav>
+          <a href="#om">om</a>
+          <a href="#cv">cv</a>
+          <a href="#kontakt">kontakt</a>
+        </nav>
+      </header>
+
+      <!--- ÄNDRAT: Hero (namn + titel) --->
+      <main id="top" class="content">
+        <section class="hero">
+          <h1 class="display">Elyas Husein</h1>
+          <p class="subtitle">Digital Analytiker</p>
+        </section>
+
+        <!--- ÄNDRAT: Sektion från profil till “Om” --->
+        <section id="om" class="section">
+          <h2>Om mig</h2>
+          <p>
+            Engagerad och analytisk med fokus på dataanalys, spårning och
+            datadriven marknadsföring. Van att jobba strukturerat och
+            problemlösande både självständigt och i team.
+          </p>
+        </section>
+
+        <!--- ÄNDRAT: Sektion “CV” (arbetsliv + utbildning) --->
+        <section id="cv" class="section">
+          <h2>CV</h2>
+
+          <div class="block">
+            <div class="block-head">
+              <h3>Qualified User, H&amp;M, Borås</h3>
+              <span class="muted">Mars 2021 — September 2024</span>
+            </div>
+            <ul class="bullets">
+              <li>Erfarenhet av arbete i ett globalt företag och vikten av teamwork.</li>
+              <li>Självständig hantering av logistik- och lagerprocesser.</li>
+              <li>Daglig hantering av SAP-system för registrering och analys av lagersaldon.</li>
+              <li>Specialkompetens: split-point (Keysoft &amp; SAP EWM) för optimering av lagerflöden.</li>
+              <li>Uppfyllde produktivitetsmål genom planering och prioritering.</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <div class="block-head">
+              <h3>Digital Analytiker</h3>
+              <span class="muted">Sep 2025 — Pågående</span>
+            </div>
+            <div class="subtle">Borås Yrkeshögskola</div>
+            <ul class="bullets">
+              <li>Webbanalys, dataanalys, spårning och datadriven marknadsföring.</li>
+              <li>Google Analytics, Tag Manager, Looker Studio, SQL och Python.</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <div class="block-head">
+              <h3>Systemutveckling .NET / C#</h3>
+              <span class="muted">Sep 2024 — Jan 2025</span>
+            </div>
+            <div class="subtle">Yrkeshögskolan i Borås (1 termin)</div>
+            <ul class="bullets">
+              <li>Objektorienterad programmering.</li>
+              <li>Relationella databaser (SQL).</li>
+            </ul>
+          </div>
+        </section>
+
+        <!--- ÄNDRAT: Sektion “Kontakt” --->
+        /*=== Påminnelse att lösa länken till LinkedIN och mailto korrekt ===*/
+        <section id="kontakt" class="section">
+          <h2>Kontakt</h2>
+          <p><strong>Telefon:</strong> 076-563 94 96</p>
+          <p><strong>E-post:</strong> <a href="mailto:elyasmead@gmail.com">elyasmead@gmail.com</a></p>
+          <p><strong>Plats:</strong> Borås, Sverige</p>
+          <p><strong>LinkedIn:</strong> <a href="#" target="https://www.linkedin.com/in/elyas-mead-255aa124a/" rel="noopener">linkedin.com/in/…</a></p>
+        </section>
+
+        <footer class="foot">
+          © <span id="year"></span> Elyas Husein
+        </footer>
+      </main>
+    </aside>
+
+    <!-- HÖGER: Fast/stillastående bild -->
+    <aside class="right" aria-hidden="true">
+      <!--- ÄNDRAT: Stor bild som är sticky på höger sida istället --->
+      <img src="assets/portrait.jpg" alt="" />
+    </aside>
+  </div>
+
+  <script>
+    //uppdatera årtal automatiskt
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
